@@ -43,8 +43,8 @@ public class StudentInfo {
 		System.out.printf("| %-10s | %-20s | %-10s | %-10s |\n", "Roll No.", "Name", "Branch", "Division");
 		System.out.println("===============================================================");
 							
-		for(Student ss: students) {
-			ss.display_info();
+		for(Student student: students) {
+			student.display_info();
 			System.out.println("---------------------------------------------------------------");
 		}
 		
