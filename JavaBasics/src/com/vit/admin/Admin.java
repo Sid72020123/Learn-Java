@@ -4,7 +4,7 @@ public class Admin {
 	int id;
 	String name;
 
-	public Admin(int id, String name, String branch, char division) {
+	public Admin(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
