@@ -9,10 +9,10 @@ public class Management {
 		Student s = new Student("Siddhesh", 44, "S.Y. CS(SE)", 'C');
 		Faculty f = new Faculty(101, "Teacher A", "S.Y. CS(SE)", 'C');
 		Admin a = new Admin(101, "ADMIN");
-		
+
 		a.displayInfo();
 		f.displayInfo();
 		s.displayInfo();
-		
+
 	}
 }
