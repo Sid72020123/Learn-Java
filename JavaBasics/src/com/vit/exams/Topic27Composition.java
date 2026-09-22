@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class Composition {
+public class Topic27Composition {
     public static void main(String[] args) { House house = new House(); house.showRoom(); }
 }
 class House {

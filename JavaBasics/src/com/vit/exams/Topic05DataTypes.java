@@ -1,7 +1,7 @@
 package com.vit.exams;
 
 /** Primitive types store values directly; reference types store object references. */
-class DataTypes {
+public class Topic05DataTypes {
     public static void main(String[] args) {
         byte small = 100; short shortNumber = 30_000; int count = 42; long population = 8_000_000_000L;
         float price = 19.5F; double pi = 3.14159; char grade = 'A'; boolean active = true;

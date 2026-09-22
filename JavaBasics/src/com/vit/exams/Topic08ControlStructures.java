@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class ControlStructures {
+public class Topic08ControlStructures {
     public static void main(String[] args) {
         int mark = 78;
         if (mark >= 50) System.out.println("Pass"); else System.out.println("Fail");

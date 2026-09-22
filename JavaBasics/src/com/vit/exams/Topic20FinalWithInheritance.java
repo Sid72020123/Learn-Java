@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class FinalWithInheritance {
+public class Topic20FinalWithInheritance {
     public static void main(String[] args) { PremiumPlan plan = new PremiumPlan(); plan.describe(); System.out.println(plan.getId()); }
 }
 class Plan {

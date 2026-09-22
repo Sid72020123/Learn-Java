@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class ClassAndObject {
+public class Topic09ClassAndObject {
     public static void main(String[] args) {
         Student student = new Student("Ravi", 101); // Object created from the Student class.
         student.introduce();

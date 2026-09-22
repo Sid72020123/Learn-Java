@@ -1,7 +1,7 @@
 package com.vit.exams;
 
 /** Java is platform independent because source code is compiled to JVM bytecode. */
-class JavaFeatures {
+public class Topic02JavaFeatures {
     public static void main(String[] args) {
         System.out.println("Java features: platform independent, object-oriented, robust, secure, multithreaded.");
         try {

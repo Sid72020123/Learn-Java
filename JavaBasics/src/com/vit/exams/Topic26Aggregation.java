@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class Aggregation {
+public class Topic26Aggregation {
     public static void main(String[] args) {
         Address address = new Address("Chennai"); // Address exists independently of Employee.
         Employee employee = new Employee("Isha", address);

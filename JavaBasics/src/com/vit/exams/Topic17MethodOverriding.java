@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class MethodOverriding {
+public class Topic17MethodOverriding {
     public static void main(String[] args) { Vehicle vehicle = new Car(); vehicle.start(); }
 }
 class Vehicle { void start() { System.out.println("Vehicle starts"); } }

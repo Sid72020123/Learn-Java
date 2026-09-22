@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class Association {
+public class Topic25Association {
     public static void main(String[] args) {
         Teacher teacher = new Teacher("Dr. Rao");
         Course course = new Course("Java", teacher); // Independent objects are associated.

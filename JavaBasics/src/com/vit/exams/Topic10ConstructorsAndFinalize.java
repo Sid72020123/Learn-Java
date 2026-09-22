@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class ConstructorsAndFinalize {
+public class Topic10ConstructorsAndFinalize {
     public static void main(String[] args) {
         Resource resource = new Resource("example.txt"); // Constructor initializes a new object.
         resource.close(); // Prefer explicit cleanup or try-with-resources.

@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class SuperKeyword {
+public class Topic19SuperKeyword {
     public static void main(String[] args) { new Manager("Aman", "Sales").showDetails(); }
 }
 class Person {

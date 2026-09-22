@@ -2,7 +2,7 @@ package com.vit.exams;
 
 import java.util.Objects;
 
-class ObjectClass {
+public class Topic21ObjectClass {
     public static void main(String[] args) {
         Book first = new Book("Java Basics", "123");
         Book second = new Book("Java Basics", "123");

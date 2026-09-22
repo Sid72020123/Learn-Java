@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class DynamicMethodDispatch {
+public class Topic18DynamicMethodDispatch {
     public static void main(String[] args) {
         Notification notification = new EmailNotification(); // Parent reference, child object.
         notification.send(); // JVM selects EmailNotification.send() at runtime.

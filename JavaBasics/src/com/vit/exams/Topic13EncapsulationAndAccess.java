@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class EncapsulationAndAccess {
+public class Topic13EncapsulationAndAccess {
     public static void main(String[] args) {
         SecureProfile profile = new SecureProfile("Nina");
         profile.setAge(20);

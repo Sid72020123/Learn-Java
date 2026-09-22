@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class AbstractClasses {
+public class Topic24AbstractClasses {
     public static void main(String[] args) { Figure figure = new Square(4); System.out.println("Area: " + figure.area()); }
 }
 abstract class Figure {

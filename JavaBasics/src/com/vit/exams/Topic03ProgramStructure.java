@@ -1,7 +1,7 @@
 package com.vit.exams;
 
 // A Java program can contain comments, a class, fields, methods, and main().
-class JavaProgramStructure {
+public class Topic03ProgramStructure {
     private static final String GREETING = "Hello, Java!"; // Field (class data)
 
     public static void main(String[] args) { // Execution begins here.

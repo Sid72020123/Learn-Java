@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class MethodOverloading {
+public class Topic11MethodOverloading {
     static int add(int first, int second) { return first + second; }
     static double add(double first, double second) { return first + second; }
     static int add(int first, int second, int third) { return first + second + third; }

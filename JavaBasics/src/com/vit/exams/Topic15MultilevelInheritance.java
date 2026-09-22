@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class MultilevelInheritance {
+public class Topic15MultilevelInheritance {
     public static void main(String[] args) { Puppy puppy = new Puppy(); puppy.eat(); puppy.bark(); puppy.weep(); }
 }
 class LivingAnimal { void eat() { System.out.println("Eats"); } }

@@ -1,6 +1,6 @@
 package com.vit.exams;
 
-class RuntimePolymorphism {
+public class Topic23RuntimePolymorphism {
     public static void main(String[] args) {
         Payment payment = new CardPayment();
         payment.pay(500); // Overridden implementation is selected at runtime.
