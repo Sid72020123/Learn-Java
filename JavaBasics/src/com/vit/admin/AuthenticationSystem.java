@@ -34,11 +34,11 @@ public class AuthenticationSystem {
 			}
 
 		} catch (NullPointerException e) {
-			System.out.println("Invalid Input: " + e.getMessage());
+			System.out.println("\nInvalid Input: " + e.getMessage());
 		} catch (SecurityException e) {
-			System.out.println("Login Error: " + e.getMessage());
+			System.out.println("\nLogin Error: " + e.getMessage());
 		} catch (Exception e) {
-			System.out.println("Unexpected Error: " + e.getMessage());
+			System.out.println("\nUnexpected Error: " + e.getMessage());
 		} finally {
 			System.out.println("\nAuthentication Process Complete.\nExiting...");
 
